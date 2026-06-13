@@ -1,0 +1,16 @@
+{
+  "name": "robotmon-discord-bot",
+  "version": "1.0.0",
+  "description": "Discord bot to control Android via Robotmon gRPC",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js"
+  },
+  "dependencies": {
+    "@grpc/grpc-js": "^1.10.0",
+    "@grpc/proto-loader": "^0.7.0",
+    "discord.js": "^14.14.0",
+    "dotenv": "^16.0.0"
+  }
+}
